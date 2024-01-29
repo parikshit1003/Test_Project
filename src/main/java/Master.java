@@ -2,6 +2,7 @@
 
 public class Master {
     public static void main(String[] Args){
-        System.out.println("Test Project 12345678");
+        Utility util = new Utility();
+        util.evaluate("Test 12345678");
     }
 }
